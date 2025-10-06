@@ -1,0 +1,220 @@
+body {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    color: #e2dddd;
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    color: #030303;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 10%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo {
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    margin-left: 2rem;   
+}
+
+header nav {
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+header nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header nav li {
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer {
+    color: #030303;
+    font-weight: bold;
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 10%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.footer_contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+footer li {
+    font-size: 1.5rem;
+    text-align: center;  
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;    
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------HOME--------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+main {
+    width: 90%;
+    flex: 1;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1 {
+    text-align: center;
+    margin: 2rem 0;
+    color: #030303;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+main p {
+    color: #030303;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    width: 80%;
+}
+
+.flyer_home {
+    width: 100%;
+}
+.contenedor_flyer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 1rem;
+}
+.vertical_flyer {
+    flex: 1 0 auto;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: #030303;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.vertical_flyer img {
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+.vertical_flyer h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.vertical_flyer h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------CONTACTO----------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+ .contacto_mensaje {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.contacto_mensaje form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+}
+.contacto_mensaje label {
+    display: flex;
+    flex-direction: column;
+    color: #080808;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------PROGRAMAS---------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+.contenedor_programas {
+    display: grid;
+    grid-template-columns: 600 px 1fr;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.programa_estilo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    background-color: #030303;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+.programa_estilo h4 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------QUIENES SOMOS-----------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+.audio_contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
