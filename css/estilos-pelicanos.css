@@ -1,0 +1,474 @@
+body {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight:lighter;
+    font-style: normal;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    color: #e2dddd;
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    color: #030303;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 10%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    margin-left: 2rem;   
+}
+
+header nav {
+    padding: 1rem;
+    margin-right: 2rem;
+}
+
+header nav a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    padding: 1rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+header nav li {
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer {
+    color: #030303;
+    font-weight: bold;
+    background: #2A7B9B;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 10%, rgba(237, 221, 83, 1) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.footer-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+footer li {
+    font-size: 1.5rem;
+    text-align: center;  
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;    
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------HOME--------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+main {
+    width: 90%;
+    flex: 1;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main h1 {
+    text-align: center;
+    margin: 2rem 0;
+    color: #030303;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+main p {
+    color: #030303;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    width: 80%;
+}
+
+.flyer-home {
+    width: 100%;
+}
+.contenedor-flyer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 1rem;
+}
+.vertical-flyer {
+    flex: 1 0 auto;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: #030303;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.vertical-flyer img {
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+.vertical-flyer h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.vertical-flyer h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------CONTACTO----------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+ .contacto-mensaje {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+.contacto-mensaje form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+}
+.contacto-mensaje label {
+    display: flex;
+    flex-direction: column;
+    color: #080808;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------PROGRAMAS---------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+.contenedor-programas {
+    display: grid;
+    grid-template-columns: 600 px 1fr;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.programa-estilo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    background-color: #030303;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+}
+.programa-estilo h4 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------CARRITO-----------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+#contenedor-carrito {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: auto;
+    gap: 1rem;
+}
+
+.acciones-carrito {
+    flex: 1 0 auto;
+    min-width: 200px;
+    max-width: 300px;
+    background-color: #030303;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+.acciones-carrito img {
+    width: 100%;
+    border-radius: 0.5rem;
+    object-fit: cover;
+}
+.acciones-carrito h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.acciones-carrito h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------BOTONES-----------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+.btn-agregar-carrito {
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: #030303;
+    border: none;
+    padding: 8px 15px;
+    font-family: "Oswald", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.btn-eliminar-carrito {
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: #030303;
+    border: none;
+    padding: 1rem 2rem;
+    font-family: "Oswald", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-vaciar-carrito {
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    color: #030303;
+    border: none;
+    padding: 1rem 2rem;
+    font-family: "Oswald", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------RESPONSIVE--------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+@media (max-width: 831px) {
+    main h1 {
+        font-size: 1.9rem;
+        line-height: 1.2;
+        padding: 0 0.5rem;
+    }
+}
+@media (max-width: 800px) {
+    body {
+        font-size: 1.2em;
+        line-height: 1.3em;}
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .header-logo {
+        margin-left: 0;
+        width: 80px;
+        height: 80px;
+    }
+    header nav {
+        margin-right: 0;
+        width: 100%;
+    }
+    header nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    header nav li {
+        font-size: 1.5rem;
+    }
+    header nav a {
+        padding: 0.5rem;
+        font-size: 1.2rem;
+    }
+    main {
+        width: 95%;
+        margin: 1rem auto;
+    }
+    main h1 {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    main p {
+        font-size: 1.2rem;
+        width: 95%;
+    }
+    .contacto-mensaje {
+        width: 90%;
+        padding: 1rem;
+    }
+    .contenedor-programas {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .programa-estilo {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    .footer-contenedor {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    footer ul {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    footer li {
+        font-size: 1.2rem;
+    }
+
+    .btn-agregar-carrito {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+    .btn-eliminar-carrito {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+    .btn-vaciar-carrito {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 1em;
+        line-height: 1.2em;}
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .header-logo {
+        width: 60px;
+        height: 60px;
+        padding: 0.5rem;
+    }
+    header nav {
+        margin-right: 0;
+        width: 100%;
+    }
+    header nav ul {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+    header nav li {
+        font-size: 1.2rem;
+    }
+    header nav a {
+        padding: 0.25rem;
+        font-size: 1rem;
+    }
+    main {
+        width: 98%;
+        margin: 0.5rem auto;
+    }
+    main h1 {
+        font-size: 1.5rem;
+        margin: 0.5rem 0;
+    }
+    main p {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .contacto-mensaje {
+        width: 95%;
+        padding: 0.5rem;
+    }
+    .contacto-mensaje form {
+        gap: 1rem
+    }
+    .contacto-mensaje label {
+        font-size: 1rem;
+    }
+    .contenedor-programas {
+        grid-template-columns: 1fr;
+        padding: 0.5rem;
+        gap: 0.5rem;
+    }
+    
+    .programa-estilo {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+    .footer-contenedor {
+        flex-direction: column;
+        padding: 0.5rem 0;
+        gap: 0.5rem;
+    }
+    
+    footer ul {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    footer li {
+        font-size: 1rem;
+    }
+    .btn-agregar-carrito {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
+    .btn-eliminar-carrito {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
+    .btn-vaciar-carrito {
+        padding: 8px 16px;
+        font-size: 1rem;
+    }
+}

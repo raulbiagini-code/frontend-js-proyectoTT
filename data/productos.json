@@ -1,0 +1,9 @@
+[
+    {"id":"1", "nombre": "Sailor Moon", "precio": 5000, "imagen": "/img/sailor-moon.jpg"}, 
+    {"id":"2", "nombre": "Sacarle el gas a una vaca", "precio": 5000, "imagen": "/img/sacarle-el-gas-a-una-vaca.jpg"},
+    {"id":"3", "nombre": "La revolución de los gatos", "precio": 5000, "imagen": "/img/revolucion-de-los-gatos.jpg"},
+    {"id":"4", "nombre": "Cajas embrujadas & Cazafantasmas", "precio": 5000, "imagen": "/img/casas-embrujadas-y-cazafantasmas.jpg"},
+    {"id":"5", "nombre": "Sad Beige Life", "precio": 5000, "imagen": "/img/sad-beige-life.jpg"},
+    {"id":"6", "nombre": "Maximalismo", "precio": 5000, "imagen": "/img/maximalismovertical.jpg"},
+    {"id":"7", "nombre": "Brad Pitt Argentino", "precio": 5000, "imagen": "/img/brad-pitt-argentino-vertical.jpg"}
+]
