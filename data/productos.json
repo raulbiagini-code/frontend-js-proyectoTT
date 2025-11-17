@@ -5,5 +5,5 @@
     {"id":"4", "nombre": "Casas embrujadas & Cazafantasmas", "precio": 5000, "imagen": "img/casas-embrujadas-y-cazafantasmas.jpg"},
     {"id":"5", "nombre": "Sad Beige Life", "precio": 5000, "imagen": "img/sad-beige-life.jpg"},
     {"id":"6", "nombre": "Maximalismo", "precio": 5000, "imagen": "img/maximalismovertical.jpg"},
-    {"id":"7", "nombre": "Brad Pitt Argentino", "precio": 5000, "imagen": "../img/brad-pitt-argentino-vertical.jpg"}
+    {"id":"7", "nombre": "Brad Pitt Argentino", "precio": 5000, "imagen": "img/brad-pitt-argentino-vertical.jpg"}
 ]
