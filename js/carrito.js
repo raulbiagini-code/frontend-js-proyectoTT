@@ -29,7 +29,7 @@ const renderizarCarrito = () => {
         precioProducto.textContent = `Importe: $${producto.precio}`;
                 
         const imagenProducto = document.createElement("img");
-        imagenProducto.src = producto.imagen;
+        imagenProducto.src = `../${producto.imagen}`;
         imagenProducto.alt = producto.nombre;
 
         const botonEliminar = document.createElement("button");
