@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 precioProducto.textContent = `Importe: $${producto.precio}`;
                 
                 const imagenProducto = document.createElement("img");
-                imagenProducto.src = producto.imagen;
+                imagenProducto.src = "../" + producto.imagen;
                 imagenProducto.alt = producto.nombre;
             
                 const boton = document.createElement("button")
